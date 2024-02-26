@@ -1,0 +1,328 @@
+/* Patch Notes 2/25:
+- Add carousel
+- Add functionality to buttons (link to other pages)
+- Change hero text colors
+*/
+
+/* FONTS */
+@font-face {
+    font-family: 'Red Hat Display Bold';
+    src: url("../assets/csc-fonts/static/RedHatDisplay-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Red Hat Display Light';
+    src: url("../assets/csc-fonts//static/RedHatDisplay-Light.ttf");
+}
+
+
+/* HERO STYLING */
+
+.hero {
+    padding: 2vh;
+    padding-top: 7vh;
+    /* border: solid black 5px; */
+    padding-bottom: 10vh;
+}
+
+.hero-img {
+    width: 25%;
+}
+
+.hero-txt {
+    font-family: 'Red Hat Display Bold';
+    margin-top: 2vh;
+    color: #3D9BE9;
+    font-size: 40px;
+}
+
+.involve-btn {
+    margin-top: 5vh;
+    padding: 1.5vh 2.5vh 1.5vh 2.5vh;
+    border-image: linear-gradient(to right, #3D9BE9, #16CF10) 10;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: white;
+    font-family: 'Red Hat Display Bold';
+    font-weight: 800;
+    color: #388ed4;
+
+}
+
+.involve-btn:hover {
+    cursor: pointer;
+    background-color: #16CF10;
+    color: white;
+}
+
+/* CAROUSEL STYLING */
+.carousel {
+    padding: 2vh;
+    padding-top: 5vh;
+    background-color: #3D9BE9;
+    height:50vh;
+}
+
+/* ABOUT US STYLING */
+.about-us {
+    background-color: #E5F0FE;
+    height: 70vh;
+    padding-top: 5px;
+    /* border:solid red 5px; */
+}
+
+.about-us-box {
+    /* border:solid black 5px; */
+    background-color: white;
+    height: 75%;
+    margin: 3vh 3vw 3vh 3vw;
+    position: relative;
+    transform: translateY(10%);
+}
+
+.about-img {
+    /* border:solid red 5px; */
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+    float: right;
+}
+
+.about-info {
+    vertical-align: middle;
+    float: left;
+    /* border:solid green 5px; */
+    width: 40vw;
+    padding-top: 6vh;
+    padding-bottom: 3vh;
+    padding-left: 15vh;
+    text-align: left;
+}
+
+.about-btn {
+    margin-top: 5vh;
+    padding: 2vh 5vh 2vh 5vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #3D9BE9;
+    color: white;
+    font-size: large;
+    font-family: 'Red Hat Display Light';
+    font-weight: 800;
+}
+
+.about-btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color:#388ed4;
+    border: solid #388ed4 1px;
+}
+
+.about-header {
+    font-family: 'Red Hat Display Bold';
+    margin-top: 2vh;
+    font-size: 50px;
+}
+
+.about-subheader,
+.about-text {
+    font-family: 'Red Hat Display Light';
+    margin-top: 3vh;
+}
+
+.about-text {
+
+    font-size: 18px;
+}
+
+/* CHAPTERS STYLING */
+.chapters {
+    height: 75vh;
+    background-image: url("../assets/chapters-bg.webp");
+    background-size: cover;
+    background-position: top center;
+    padding-top: 5px;
+}
+
+.chapters-box {
+    /* border:solid black 5px; */
+    height: 40vh;
+    width: 40vw;
+    background-color: white;
+    margin: 20vh auto;
+    padding: 30px 80px;
+    position: relative;
+    text-align: center;
+}
+
+.chapters-head {
+    font-family: 'Red Hat Display Bold';
+    font-size: 56px;
+    padding-top: 10%;
+}
+
+.chapters-ptext {
+    padding-top: 2.5vh;
+    font-family: 'Red Hat Display Light';
+    font-weight: 600;
+}
+
+.line {
+    border-style: dotted;
+}
+
+.chapters-btn {
+    margin-top: 5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    padding: 1vh 3vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #14B30F;
+    color: white;
+    font-size: large;
+    font-family: 'Red Hat Display Light';
+    font-weight: 800;
+}
+
+.chapters-btn:hover{
+    background-color: #ffffff;
+    color: #14B30F;
+    border: solid #14B30F 1px;
+}
+
+/* EVENTS STYLING */
+.events {
+    height: 75vh;
+    /* border: solid blue 5px; */
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.events-header {
+    margin: 10vh auto;
+    width: 50vw;
+    /* border: solid black 5px; */
+}
+
+.events-title {
+    font-family: 'Red Hat Display Bold';
+    font-size: 56px;
+}
+
+.events-txt {
+    font-family: 'Red Hat Display Light';
+    font-size: 18px;
+    margin-top: 3vh;
+}
+
+.events-options {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    /* height: 30vh; */
+    /* border: solid red 5px; */
+}
+
+.e-option {
+    padding-top: 2vh;
+    /* height: 30vh; */
+    width: 33.33%;
+    /* border: solid green 5px; */
+
+    img {
+        width: 20%;
+    }
+}
+
+.option-2 {
+
+    padding-top: 2.5vh;
+
+}
+
+.option-3 {
+    img {
+        width: 25%;
+    }
+}
+
+.andMore {
+    font-family: 'Red Hat Display Bold';
+    font-size: 30px;
+    padding-top: 5vh;
+}
+
+.eventsInfo {
+    margin: 5vh 2vw;
+    padding: 1.5vh 8vh;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #3D9BE9, rgb(85, 89, 244));
+    color: white;
+    font-size: 18px;
+    font-family: 'Red Hat Display Light';
+    font-weight: 800;
+}
+
+.eventsInfo:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #3080c1, rgb(66, 70, 199));
+}
+
+/* CONTACT STYLING */
+
+.contact-us {
+    height: 70vh;
+}
+
+.divider {
+    height: 0;
+    border: solid #3D9BE9 2px;
+    width: 50vw;
+    margin: 10vh auto;
+}
+
+.contact-box-home {
+    height: 40vh;
+    width: 980px;
+    border: solid #14B30F 8px;
+    border-radius: 200px;
+    margin: auto;
+    margin-top: 3vh;
+    text-align: center;
+    padding: 7vh 5vw;
+
+    h1 {
+        font-family: 'Red Hat Display Bold';
+        font-size: 56px;
+    }
+
+    p {
+        width: 75%;
+        margin: auto;
+        margin-top: 2vh;
+        font-family: 'Red Hat Display Light';
+        font-size: 18px;
+    }
+
+    .contact-btn {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        padding: 1vh 5vh 1vh 5vh;
+        border: none;
+        border-radius: 10px;
+        background-color: #3D9BE9;
+        color: white;
+        font-family: 'Red Hat Display Light';
+        font-weight: 800;
+    }
+
+    .contact-btn:hover {
+        cursor: pointer;
+        background-color: #388ed4;
+    }
+}
