@@ -67,8 +67,12 @@ function Home() {
                         <h1 className="chapters-head inline-block bg-gradient-to-r from-[#16CF10] to-[#02ba39] bg-clip-text text-transparent">Chapters</h1>
                         <div className="line"></div>
                         <p className="chapters-ptext">Take initiative and start a CSC chapter at your school today and explore the chapters already established!</p>
-                        <button className="chapters-btn">Start A Chapter</button>
-                        <button className="chapters-btn">Explore Chapters</button>
+                        <Link className="link" to="/chapters">
+                            <button className="chapters-btn">Start A Chapter</button>
+                        </Link>
+                        <Link className="link" to="/chapters">
+                            <button className="chapters-btn">Explore Chapters</button>
+                        </Link>
                     </div>
                 </div>
                 <div className="events">

@@ -23,7 +23,7 @@ function AboutNavbar() {
 
     const [page, setPage] = useState('mission');
 
-    const small = useMediaQuery('(max-width: 900px)');
+    const small = useMediaQuery('(max-width: 800px)');
     const xsmall = useMediaQuery('(max-width:640px)');
 
     return (
@@ -211,7 +211,7 @@ function AboutNavbar() {
                                         :
                                         <>
                                             <div>
-                                                <div className="m-[5vh] grid grid-cols-3 sm:grid-cols-1">
+                                                <div className="m-[5vh] grid grid-cols-3 sm:grid-cols-3">
                                                     <OfficerCard
                                                         img={Sriram}
                                                         name="Sriram M."
