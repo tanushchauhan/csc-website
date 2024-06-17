@@ -9,14 +9,14 @@ import OfficerCard from "./OfficerCard";
 import {
     Sriram,
     Rohan,
-    Nandhan,
     Sai,
     Tuhina,
     Shreya,
     Tanush,
-    Sudiksa,
+    Karthik,
     Arpit,
-    Naavya
+    Naavya, 
+    Sanjana
 } from "../assets/About/officers";
 
 function AboutNavbar() {
@@ -158,12 +158,6 @@ function AboutNavbar() {
                                                         email="sarakintirohan@gmail.com"
                                                     />
                                                     <OfficerCard
-                                                        img={Nandhan}
-                                                        name="Nandhan A."
-                                                        role="Marketing Head"
-                                                        email="nandhu.alahari@gmail.com"
-                                                    />
-                                                    <OfficerCard
                                                         img={Tuhina}
                                                         name="Tuhina D."
                                                         role="Webmaster"
@@ -188,9 +182,9 @@ function AboutNavbar() {
                                                         email="tanushchauhan07@gmail.com"
                                                     />
                                                     <OfficerCard
-                                                        img={Sudiksa}
-                                                        name="Sudiksa D."
-                                                        role="Outreach Officer"
+                                                        img={Karthik}
+                                                        name="Karthik P."
+                                                        role="Director of Corporate Relations"
                                                         email="sud.r.2021@gmail.com"
                                                     />
                                                     <OfficerCard
@@ -216,61 +210,61 @@ function AboutNavbar() {
                                                         img={Sriram}
                                                         name="Sriram M."
                                                         role="Founder/President"
-                                                        email="sriram.madanapalli@gmail.com"
+                                                        email="president@cs4community.com"
                                                     />
                                                     <OfficerCard
                                                         img={Rohan}
                                                         name="Rohan S."
                                                         role="Vice President"
-                                                        email="sarakintirohan@gmail.com"
-                                                    />
-                                                    <OfficerCard
-                                                        img={Nandhan}
-                                                        name="Nandhan A."
-                                                        role="Marketing Head"
-                                                        email="nandhu.alahari@gmail.com"
+                                                        email="vicepresident@cs4community.com"
                                                     />
                                                     <OfficerCard
                                                         img={Tuhina}
                                                         name="Tuhina D."
-                                                        role="Webmaster"
-                                                        email="tuhinakdas@gmail.com"
+                                                        role="Director of Web Development"
+                                                        email="webdirector@cs4community.com"
                                                     />
                                                     <OfficerCard
                                                         img={Sai}
                                                         name="Sai S."
-                                                        role="Event Coordinator"
-                                                        email="18saisathanapalli@gmail.com"
+                                                        role="Director of Event Management"
+                                                        email="eventdirector@cs4community.com"
                                                     />
                                                     <OfficerCard
                                                         img={Shreya}
                                                         name="Shreya G."
-                                                        role="Outreach Officer"
-                                                        email="Shreya.goel.0910@gmail.com"
+                                                        role="Director of Outreach"
+                                                        email="outreachdirector@cs4community.com"
                                                     />
                                                     <OfficerCard
                                                         img={Tanush}
                                                         name="Tanush C."
-                                                        role="Webapp Development Curriculum Manager"
-                                                        email="tanushchauhan07@gmail.com"
+                                                        role="Director of Curriculum - Web Development"
+                                                        email="webappdevdirector@cs4community.com"
                                                     />
                                                     <OfficerCard
-                                                        img={Sudiksa}
-                                                        name="Sudiksa D."
-                                                        role="Outreach Officer"
-                                                        email="sud.r.2021@gmail.com"
+                                                        img={Sanjana}
+                                                        name="Sanjana V."
+                                                        role="Director of Marketing"
+                                                        email="marketingdirector@cs4community.com"
                                                     />
                                                     <OfficerCard
                                                         img={Arpit}
                                                         name="Arpit K."
-                                                        role="Graphic Designer/Animator"
-                                                        email="arpit.khavate@gmail.com"
+                                                        role="Director of Design"
+                                                        email="graphicsdirector@cs4community.com"
+                                                    />
+                                                    <OfficerCard
+                                                        img={Karthik}
+                                                        name="Karthik P."
+                                                        role="Director of Corporate Relations"
+                                                        email="corporaterelationsdirector@cs4community.com"
                                                     />
                                                     <OfficerCard
                                                         img={Naavya}
                                                         name="Naavya V."
-                                                        role="AI Development Curriculum Manager"
-                                                        email="naavya.vig@gmail.com"
+                                                        role="Director of Curriculum - AI Development"
+                                                        email="aidevdirector@cs4community.com"
                                                     />
                                                 </div>
                                             </div>
