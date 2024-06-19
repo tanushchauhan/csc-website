@@ -5,6 +5,6 @@ export const Tuhina = require('./tuhina.webp');
 export const Sriram = require('./sriram.webp');
 export const Tanush = require('./tanush.jpg');
 export const Karthik = require('./karthik.jpg');
-export const Arpit = require('./arpit.webp');
+export const Arpit = require('./arpit.jpg');
 export const Naavya = require('./naavya.jpg');
 export const Sanjana = require('./sanjana.jpg');
